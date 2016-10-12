@@ -1,0 +1,15 @@
+body {
+	background-color: beige;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	float: left;
+}
+
+main {
+	clear: both;
+}
