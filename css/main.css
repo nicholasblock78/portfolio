@@ -22,6 +22,10 @@ nav ul li a {
 	text-decoration: none;
 }
 
+nav a:hover {
+	color: red;
+}
+
 header {
 	height: 75px;
 	/*outline: 1px black solid;*/
@@ -50,6 +54,20 @@ main {
 
 	width: 90%;
 }
+
+main.contact p {
+	display: inline-block;
+}
+
+main.contact p strong {
+	margin-right: 20px;
+	width: 110px;
+}
+
+main.experiences div h3 {
+	/*display: inline-block;*/
+}
+
 
 footer {
 	height: 100px;
