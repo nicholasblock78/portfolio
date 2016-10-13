@@ -16,6 +16,10 @@ header {
 	outline: 1px black solid;
 }
 
+header h1 {
+	margin: 0;
+}
+
 main {
 	background-color: rgba(200,200,200,0.7);
 	box-shadow: 5px 5px 5px gray;
