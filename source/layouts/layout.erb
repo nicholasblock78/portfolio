@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Middleman" %></title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+    <%= stylesheet_link_tag :site %>
+    <%= javascript_include_tag :all %>
+  </head>
+
+  <body class="<%= page_classes %>">
+  <header>
+    <h1><span>Nicholas</span> Block</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="experiences.html">Experiences</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <%= yield %>
+    </main>
+  </body>
+  <footer>
+    <a href="https://www.linkedin.com/in/nicholasblock78
+"><img src="images/linkedin-logo.png" alt="LinkedIn Logo" height="50px" width="50px"/></a>
+    <a href="https://github.com/nicholasblock78"><img src="images/github-logo.png" alt="Github Logo" height="50px" width="50px" /></a>
+  </footer>
+</html>

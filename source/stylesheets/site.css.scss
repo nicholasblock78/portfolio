@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import "normalize";
+
+body {
+  background-color: rgb(238,238,238);
+}
+
+nav {
+  height: 25px;
+}
+nav ul {
+  display: inline-block;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  padding: 0 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+}
+
+header {
+  height: 75px;
+  /*outline: 1px black solid;*/
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+header h1 span {
+  color: rgb(75, 190, 173); 
+}
+
+header h1 {
+  color: rgb(40, 52, 103);
+}
+
+main {
+  background-color: rgba(200,200,200,0.7);
+  box-shadow: 0px 0px 10px gray;
+  clear: both;
+  margin: 5px auto;
+  padding: 5px;
+
+  width: 80%;
+}
+
+main.contact p {
+  display: inline-block;
+}
+
+main.contact p strong {
+  margin-right: 20px;
+  width: 110px;
+}
+
+main.experiences div h3 {
+  /*display: inline-block;*/
+}
+
+
+footer {
+  height: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
