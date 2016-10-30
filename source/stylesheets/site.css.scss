@@ -44,11 +44,15 @@ div#experiences {
   padding: 2%;
   width: 80%;
 
+  h2 {
+    margin: 0;
+  }
+
   section {
     // outline: 1px solid black;
     display: flex;
     height: 200px;
-    margin: 10px 0;
+    margin: 0 0 10px 0;
     width: 100%;
 
     div.left {
@@ -78,7 +82,7 @@ div#experiences {
         text-align: center;
 
         img {
-
+          width: 35px;
         }
       }
     }
