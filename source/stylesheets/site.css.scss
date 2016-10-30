@@ -15,7 +15,7 @@ main {
   clear: both;
   margin: 5px auto;
   padding: 5px;
-
+  height: 750px;
   width: 80%;
 }
 
@@ -28,9 +28,54 @@ main.contact p strong {
   width: 110px;
 }
 
-main.experiences div h3 {
-  /*display: inline-block;*/
+
+/********* EXPERIENCES & EDUCATION *********/
+
+div#experiences {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  margin: 0 auto;
+  padding: 2%;
+  width: 80%;
+
+  section {
+    display: flex;
+    width: 100%;
+
+    div.left {
+      flex: 1;
+
+      div.logo {
+
+      }
+
+      div.thumbnails {
+        display: inline-block;
+      }
+    }
+
+    div.info {
+      flex: 2;
+    }
+
+  }
 }
+
+div#education {
+   background-color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin: 0 auto;
+  padding: 2%;
+  width: 80%;
+}
+
+
+
+
 
 
 footer {
