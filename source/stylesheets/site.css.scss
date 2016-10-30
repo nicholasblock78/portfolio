@@ -32,20 +32,10 @@ main.contact p strong {
   margin: 0 auto;
   width: 60%;
 }
-/********* SKILLS *************/
-main  {
 
-  div#skills {
-  text-align: left;
-
-  ul {
-    
-  } 
-} 
-}
 
 @import "about";
-
+@import 'skills';
 
 /********* EXPERIENCES & EDUCATION *********/
 
