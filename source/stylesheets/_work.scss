@@ -1,0 +1,42 @@
+div#work {
+	text-align: left;
+	width: 80%;
+	margin: 0 auto;
+
+	#team {
+
+		h3 {
+			margin-left: 20px;
+
+			span {
+				text-decoration: underline;
+			}
+		}
+		section {
+			display: flex;
+
+			.lefty {
+				display: flex;
+				flex: 1;
+				justify-content: center;
+				align-items: center;
+
+				img {
+					height: 150px;
+					box-shadow: 5px 5px 5px gray;
+				}
+			}
+			.righty {
+				flex: 2;
+
+				h4 {
+					font-size: 1.5em;
+				}
+			}
+		}
+	}
+
+	#personal {
+
+	}
+}
