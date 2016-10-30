@@ -76,4 +76,16 @@ footer {
   height: 100px;
   text-align: center;
   margin-top: 20px;
+
+  span {
+    background-color: orange;
+    height: 40px;
+
+    img {
+
+      height: 40px;
+      width: 40px;
+    }
+  }
+
 }
