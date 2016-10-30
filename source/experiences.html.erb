@@ -6,7 +6,9 @@
 				<img src="images/dbclogo.png" alt="Dev Bootcamp Logo" height="60px"/>
 			</div>
 			<div class="thumbnails">
-				<%= image_tag 'calendar-thumbnail.png' %>
+				<% link_to '', id: 'dbc' do %>
+					<%= image_tag 'calendar-thumbnail.png' %>
+				<% end %>
 				<% link_to 'http://devbootcamp.com', target: '_blank' do %>
 					<%= image_tag 'web-logo.png' %>
 				<% end %>
@@ -85,10 +87,27 @@
 			<img src="images/iowa.gif" alt="Iowa Logo" height="40px" />
 			<h3>University of Iowa</h3>
 			<p>BA Health and Human Physiology, 2015</p>
+			<p>Course highlights include...</p>
+			<p><em>Applied Sport and Exercise Psychology, Physiology of Nutrition, Biomechanics of Human Motion</em></p>
 		</section>
 		<section>
 			<img src="images/iwu-logo.png" alt="IWU Logo" height="40px" />
 			<h3>Illinois Wesleyan University</h3>
 			<p>Attended freshman year</p>
+			<p>Course highlights include...</p>
+			<p><em>World War II in the Pacific and Entrepreneurship</em></p>
 		</section>
 </div>
+
+<script type="text/javascript">
+	console.log('hello');
+$(document).ready( function () {
+	$('#dbc').on('click', function() {
+		event.preventDefault();
+
+		console.log('hello');
+
+	})
+});
+
+</script>

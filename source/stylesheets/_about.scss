@@ -1,0 +1,36 @@
+div#about {
+	text-align: left;
+
+	h2 {
+		margin: 5px 0 0 30px;
+		font-size: 3em;
+	}
+
+	div#about-img {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+
+		img {
+			border-radius: 75%;
+			height: 200px;
+			text-align: center;
+			margin: 0 auto;
+		}	
+	}
+
+	h3 {
+		margin-left: 25px;
+	}
+
+	h4#slogan {
+		text-align: center;
+	}	
+
+	p {
+		text-align: justify;
+		text-indent: 30px;
+		margin: 0 auto;
+		width: 80%;
+	}	
+}
