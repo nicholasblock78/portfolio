@@ -1,0 +1,51 @@
+footer {
+	clear: both;
+	height: 100px;
+	text-align: center;
+	margin-top: 3%;
+
+	#footer-icons {
+
+		img {
+			height: 50px;
+			width: 50px;
+		}
+	}
+
+	#middleman-credit {
+		margin: 0 auto;
+		width: 250px;
+
+		div {
+
+			p {
+				font-weight: bold;
+				font-style: italic;
+				vertical-align: center;
+
+			}
+
+			img {
+				margin-left: 10px;
+				height: 40px;
+				width: 40px;
+			}
+
+			div#orange {
+				position: relative;
+				left: 105px;
+				top: -50px;
+				height: 50px;
+				width: 50px;
+				border-radius: 75%;
+				box-shadow: 3px 3px 3px gray;
+				background-color: orange;
+				z-index: -5;
+			}
+			
+
+			
+		}
+		
+	}
+}
