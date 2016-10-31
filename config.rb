@@ -35,11 +35,12 @@ activate :autoprefixer
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
 
 activate :deploy do |deploy|
 	deploy.build_before = true # default: false
@@ -48,16 +49,5 @@ activate :deploy do |deploy|
   deploy.port 		 	 = 21
   deploy.path            = '/nicholasblock.com/'
   deploy.user            = 'nblock0330'
-  deploy.password        = 'S-partan1'
+  deploy.password        = "#{ENV['PASSWORD']}"
 end
-
-# activate :deploy do |deploy|
-#   deploy.deploy_method   = :sftp
-#   deploy.host            = 'sftp.nicholasblock.com'
-#   deploy.port            = 22
-#   deploy.path            = '/srv/www/site'
-#   # Optional Settings
-#   deploy.user     = 'nblock0330' # no default
-#   deploy.password = 'S-partan1' # no default
-#   deploy.build_before = true # default: false
-# end
