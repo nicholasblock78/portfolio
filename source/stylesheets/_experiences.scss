@@ -1,5 +1,9 @@
+h2 {
+  font-size: 2em;
+  margin: 0;
+}
 div#experiences {
-  background-color: orange;
+  // background-color: orange;
   display: flex;
   flex-direction: column;
   
@@ -7,9 +11,6 @@ div#experiences {
   padding: 2%;
   width: 80%;
 
-  h2 {
-    margin: 0;
-  }
 
   section {
     // outline: 1px solid black;
@@ -17,6 +18,8 @@ div#experiences {
     height: 200px;
     margin: 0 0 10px 0;
     width: 100%;
+    border-bottom: 2px solid goldenrod;
+    padding-bottom: 20px;
 
     div.left {
       height: 200px;
@@ -71,7 +74,7 @@ div#experiences {
 }
 
 div#education {
- background-color: goldenrod;
+ // background-color: goldenrod;
  display: flex;
  flex-direction: column;
  height: 500px;
@@ -81,6 +84,9 @@ div#education {
 
  section {
 
+  img {
+    margin-top: 2%;
+  }
  }
 
 }

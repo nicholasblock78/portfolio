@@ -12,6 +12,7 @@ div#about {
 		justify-content: center;
 
 		img {
+			box-shadow: 3px 3px 5px gray;
 			border-radius: 75%;
 			height: 200px;
 			text-align: center;
@@ -20,7 +21,7 @@ div#about {
 	}
 
 	h3 {
-		margin-left: 25px;
+		margin-left: 130px;
 	}
 
 	h4#slogan {
@@ -28,9 +29,10 @@ div#about {
 	}	
 
 	p {
+		line-height: 1.5;
 		text-align: justify;
-		text-indent: 30px;
+		text-indent: 50px;
 		margin: 0 auto;
-		width: 80%;
+		width: 70%;
 	}	
 }
