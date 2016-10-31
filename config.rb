@@ -40,3 +40,24 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+activate :deploy do |deploy|
+	deploy.build_before = true # default: false
+  deploy.deploy_method   = :ftp
+  deploy.host            = 'ftp.nicholasblock.com'
+  deploy.port 		 	 = 21
+  deploy.path            = '/nicholasblock.com/'
+  deploy.user            = 'nblock0330'
+  deploy.password        = 'S-partan1'
+end
+
+# activate :deploy do |deploy|
+#   deploy.deploy_method   = :sftp
+#   deploy.host            = 'sftp.nicholasblock.com'
+#   deploy.port            = 22
+#   deploy.path            = '/srv/www/site'
+#   # Optional Settings
+#   deploy.user     = 'nblock0330' # no default
+#   deploy.password = 'S-partan1' # no default
+#   deploy.build_before = true # default: false
+# end
