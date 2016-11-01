@@ -51,3 +51,4 @@ activate :deploy do |deploy|
   deploy.user            = 'nblock0330'
   deploy.password        = "#{ENV['PASSWORD']}"
 end
+
