@@ -10,6 +10,6 @@ I decided to leverage the Middleman framework to build my website as I had no ne
 
 The site is using still using the default erb for my preprocessed HTML, but I'm hoping to pick up Pug (aka Jade) to eventually replace erb. 
 
-Hope you enjoy! :happy:
+Hope you enjoy!
 
 If you have any ideas on how to help make my site better, please drop me a line! I always appreciate any and all advice. Thanks!
