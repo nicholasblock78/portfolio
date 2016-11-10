@@ -7,6 +7,26 @@ body {
   background-color: rgb(238,238,238);
 }
 
+/* Desktop web screens */
+@media screen and (max-width: 800px) {
+  body {
+    background-color: yellow;
+  }
+
+  /* Middle screens */
+  @media screen and (max-width: 650px) {
+    body {
+      background-color: blue;
+    }
+
+    /* Mobile Smallest Screens */
+    @media screen and (max-width: 500px) {
+      body {
+        background-color: red;
+      }
+    }
+  }
+}
 
 main {
   background-color: rgba(200,200,200,0.7);
