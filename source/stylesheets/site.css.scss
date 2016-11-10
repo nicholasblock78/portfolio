@@ -53,6 +53,13 @@ main.contact p strong {
   width: 60%;
 }
 
+div#faq {
+
+  ul {
+    list-style-type: none;
+  }
+}
+
 
 @import "about";
 @import 'skills';
