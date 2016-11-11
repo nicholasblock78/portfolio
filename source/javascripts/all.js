@@ -2,7 +2,9 @@
 $(function() {
 	console.log('hello');
 
-	$('nav').on('click', function() {
-		console.log('goodbye')
+	$('#dbc img').on('click', function() {
+		event.preventDefault();
+
+		$(this).parent().parent().append('July and August 2016')
 	})
 })
