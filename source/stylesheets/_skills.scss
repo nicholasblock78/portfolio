@@ -3,18 +3,22 @@ main  {
   div#skills {
 	  text-align: left;
 	  display: flex;
-	  justify-content: space-around;
+	  justify-content: center;
 
 	  h2 {
+	  	clear: both;
 	  	font-size: 2.5em;
 	  	margin-bottom: 0;
 	  }
 
 	  ul {
+	  	clear: both;
 	  	margin-top: 0;
 	    
 	    li {
 	    	list-style-type: square;
+	    	margin: 0;
+	    	width: 150px;
 	    }
 	  } 
 } 

@@ -8,7 +8,9 @@
 	<div id="middleman-credit">
 		<div>
 			<p>Built using MiddleMan</p>
-			<%= image_tag 'middleman-logo.svg' %>
+			<% link_to 'https://middlemanapp.com/', target: '_blank' do %>
+				<%= image_tag 'middleman-logo.svg' %>
+			<% end %>
 			<div id="orange"></div>
 		</div>
 	</div>
