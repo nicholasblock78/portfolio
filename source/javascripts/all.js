@@ -25,4 +25,14 @@ $(function() {
 
 		$(this).parent().parent().append('summers 2013 & 2014')
 	})
+
+	$('button.personal').on('click', function() {
+		$('#personal').show();
+		$('#team').hide();
+	})
+
+	$('button.team').on('click', function() {
+		$('#team').show();
+		$('#personal').hide();
+	})
 })
