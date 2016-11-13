@@ -27,7 +27,9 @@
 				<img src="images/choppingblock.jpg" alt="Chopping Block Logo" height="125px" />
 			</div>
 			<div class="thumbnails">
+			<% link_to '', id: 'choppingblock' do %>
 				<%= image_tag 'calendar-thumbnail.png' %>
+			<% end %>
 				<% link_to 'http://www.thechoppingblock.com', target: '_blank' do %>
 					<%= image_tag 'web-logo.png' %>
 				<% end %>
@@ -47,7 +49,9 @@
 				<img src="images/creativecircus.png" alt="Creative Circus Logo" height="125px" />
 			</div>
 			<div class="thumbnails">
+			<% link_to '', id: 'circus' do %>
 				<%= image_tag 'calendar-thumbnail.png' %>
+			<% end %>
 				<% link_to 'http://summeratthecircus.com/', target: '_blank' do %>
 					<%= image_tag 'web-logo.png' %>
 				<% end %>
@@ -67,7 +71,9 @@
 				<img src="images/pdhp-logo.png" alt="PDHP Logo" height="125px" />
 			</div>
 			<div class="thumbnails">
+			<% link_to '', id: 'pdhp' do %>
 				<%= image_tag 'calendar-thumbnail.png' %>
+			<% end %>
 				<% link_to 'http://www.pdhp.org/camps/', target: '_blank' do %>
 					<%= image_tag 'web-logo.png' %>
 				<% end %>
@@ -80,6 +86,16 @@
 			<li>Led many outdoor recreational activities, such as hiking and kayaking</li>
 		</ul>
 		</div>
+	</section>
+	<section>
+		<p>Check out some of the older places I've worked at too!</p>
+		<ul>
+			<li>Camp Counselor &amp; Lifeguard at my local JCYS</li>
+			<li>Intramural referee at The University of Iowa</li>
+			<li>Window washing</li>
+			<li>Delivery Driver for a few different places</li>
+			<li>Line cook at Chipotle and One Twenty Six Restaurant</li>
+		</ul>
 	</section>
 </div>
 	
@@ -100,16 +116,3 @@
 			<p><em>World War II in the Pacific and Entrepreneurship</em></p>
 		</section>
 </div>
-
-<!-- <script type="text/javascript">
-	console.log('hello');
-$(document).ready( function () {
-	$('#dbc').on('click', function() {
-		event.preventDefault();
-
-		console.log('hello');
-
-	})
-});
-
-</script> -->
