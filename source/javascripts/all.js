@@ -35,4 +35,14 @@ $(function() {
 		$('#team').show();
 		$('#personal').hide();
 	})
+
+	$('button.experiences').on('click', function() {
+		$('#experiences').show();
+		$('#education').hide();
+	})
+
+	$('button.education').on('click', function() {
+		$('#education').show();
+		$('#experiences').hide();
+	})
 })
