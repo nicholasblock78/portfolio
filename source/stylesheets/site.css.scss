@@ -53,15 +53,8 @@ main.contact p strong {
   width: 60%;
 }
 
-div#faq {
-
-  ul {
-
-  }
-}
-
-
-@import "about";
+@import 'main';
+@import 'about';
 @import 'skills';
 @import 'experiences';
 @import 'work';
