@@ -34,26 +34,44 @@ div#work {
 			}
 		}
 		section {
-			display: flex;
+			border-top: 2px solid goldenrod;
 			margin-top: 5%;
+			padding-top: 1%;
 
-			.lefty {
+			.top-wrapper {
 				display: flex;
-				flex: 1;
-				justify-content: center;
-				align-items: center;
+				flex-direction: row-wrap;
+				width: 100%;
 
-				img {
-					height: 150px;
-					box-shadow: 5px 5px 5px gray;
+				.lefty {
+					display: flex;
+					flex: 1;
+					justify-content: center;
+					align-items: center;
+
+					img {
+						height: 150px;
+						box-shadow: 5px 5px 5px gray;
+					}
+				}
+
+				.righty {
+					flex: 2;
+					margin-left: 20px;
+
+					h4 {
+						font-size: 1.5em;
+					}
 				}
 			}
-			.righty {
-				flex: 2;
-				margin-left: 20px;
 
-				h4 {
-					font-size: 1.5em;
+			.bottom-wrapper {
+				clear: both;
+				text-align: center;
+				width: 100%;
+
+				div {
+					margin: 0 auto;
 				}
 			}
 		}
