@@ -53,9 +53,15 @@ main.contact p strong {
   width: 60%;
 }
 
+p.disclaimer {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
 @import 'about';
 @import 'skills';
 @import 'experiences';
 @import 'work';
 @import 'qa';
+@import 'contact';
 @import 'footer';
