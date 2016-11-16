@@ -1,31 +1,30 @@
-main  {
+div#skills {
+	border-top: 2px solid goldenrod;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 1%;
 
-	div#skills {
-		text-align: left;
+	h2 {
+		clear: both;
+		font-size: 2.5em;
+		margin-bottom: 0;
+	}
+
+	ul {
+		clear: both;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: center;
+		margin-top: 0;
 
-		h2 {
-			clear: both;
-			font-size: 2.5em;
-			margin-bottom: 0;
+		li {
+			list-style-type: square;
+			margin: 0;
+			margin-left: 5px;
+			width: 150px;
 		}
-
-		ul {
-			clear: both;
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			margin-top: 0;
-
-			li {
-				list-style-type: square;
-				margin: 0;
-				margin-left: 5px;
-				width: 150px;
-			}
-		} 
 	} 
-}
+} 

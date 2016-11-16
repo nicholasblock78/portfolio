@@ -1,6 +1,8 @@
 div.buttons {
+	border-top: 2px solid goldenrod;
 	display: flex;
 	justify-content: center;
+	margin-top: 1%;
 
 	button {
 		background-color: rgba(138, 242, 33,0.6);
