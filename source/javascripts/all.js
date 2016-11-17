@@ -1,29 +1,48 @@
 // This is where it all goes :)
 $(function() {
-	console.log('hello');
 
-	$('#dbc img').on('click', function() {
+	$('#dbc img').on('mouseenter', function() {
 		event.preventDefault();
 
-		$(this).parent().parent().append('summer 2016')
+		$(this).parent().parent().append('<p>summer 2016</p>')
+	})
+	$('#dbc img').on('mouseleave', function() {
+		event.preventDefault();
+
+		$(this).parent().parent().find('p').remove()
 	})
 
-	$('#choppingblock img').on('click', function() {
+	$('#choppingblock img').on('mouseenter', function() {
 		event.preventDefault();
 
-		$(this).parent().parent().append('Sept - Oct 2016')
+		$(this).parent().parent().append('<p>Sept - Oct 2016</p>')
+	})
+	$('#choppingblock img').on('mouseleave', function() {
+		event.preventDefault();
+
+		$(this).parent().parent().find('p').remove()
 	})
 
-	$('#circus img').on('click', function() {
+	$('#circus img').on('mouseenter', function() {
 		event.preventDefault();
 
-		$(this).parent().parent().append('summer 2015')
+		$(this).parent().parent().append('<p>Summer 2015</p>')
+	})
+	$('#circus img').on('mouseleave', function() {
+		event.preventDefault();
+
+		$(this).parent().parent().find('p').remove()
 	})
 
-	$('#pdhp img').on('click', function() {
+	$('#pdhp img').on('mouseenter', function() {
 		event.preventDefault();
 
-		$(this).parent().parent().append('summers 2013 & 2014')
+		$(this).parent().parent().append('<p>Summers 2013 & 2014</p>')
+	})
+	$('#pdhp img').on('mouseleave', function() {
+		event.preventDefault();
+
+		$(this).parent().parent().find('p').remove()
 	})
 
 	$('button.personal').on('click', function() {

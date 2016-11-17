@@ -19,7 +19,7 @@ div#experiences {
     margin: 0 0 10px 0;
     width: 100%;
     border-top: 2px solid $borders;
-    padding-bottom: 20px;
+    padding-bottom: 3%;
 
     div.left {
       height: 200px;
@@ -49,6 +49,10 @@ div#experiences {
 
         img {
           width: 35px;
+        }
+
+        p {
+          margin-top: 0;
         }
       }
     }
