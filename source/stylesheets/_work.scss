@@ -1,12 +1,12 @@
 div.buttons {
-	border-top: 2px solid goldenrod;
+	border-top: 2px solid $borders;
 	display: flex;
 	justify-content: center;
 	margin-top: 1%;
 
 	button {
 		background-color: rgba(138, 242, 33,0.6);
-		border: 3px solid goldenrod;
+		border: 3px solid $borders;
 		border-radius: 25px;
 		box-shadow: 3px 3px 5px gray;
 		margin: 1.5% 2%;
@@ -15,7 +15,8 @@ div.buttons {
 	}
 
 	button:hover {
-		background-color: goldenrod;
+		background-color: $borders;
+		font-weight: bold;
 	}
 }
 
@@ -34,7 +35,7 @@ div#work {
 			}
 		}
 		section {
-			border-top: 2px solid goldenrod;
+			border-top: 2px solid $borders;
 			margin-top: 5%;
 			padding-top: 1%;
 

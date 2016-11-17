@@ -18,7 +18,7 @@ div#experiences {
     height: 200px;
     margin: 0 0 10px 0;
     width: 100%;
-    border-top: 2px solid goldenrod;
+    border-top: 2px solid $borders;
     padding-bottom: 20px;
 
     div.left {
@@ -74,7 +74,6 @@ div#experiences {
 }
 
 div#education {
- // background-color: goldenrod;
  display: flex;
  flex-direction: column;
  height: 500px;
