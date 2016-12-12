@@ -57,6 +57,8 @@ div#experiences {
       }
     }
 
+
+
     div.info {
       flex: 2;
       // outline: 1px solid black;
@@ -93,3 +95,12 @@ div#education {
  }
 
 }
+  section#bottom {
+      p {
+        text-indent: 0;
+      }
+
+      li {
+        text-align: left;
+      }
+    }
