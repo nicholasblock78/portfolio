@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(238,238,238);
+  font-family: 'Lato', sans-serif;  
 }
 
 /* Desktop web screens */
@@ -39,8 +40,10 @@ main {
   width: 70%;
 
   p {
+    // font-family: 'Lato', sans-serif;
     margin: 10px auto;
     text-align: justify;
+    text-indent: 30px;
     width:60%;
   }
 }
