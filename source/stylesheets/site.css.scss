@@ -5,9 +5,46 @@
 
 body {
   background-color: gray;
-  font-family: 'Lato', sans-serif;  
+  font-family: 'Lato', sans-serif;
 }
 
+header {
+  background-image: url(../images/kiteandi.jpg);
+  background-position: 0% -5%;
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+  height: 675px;
+  box-shadow: 0 5px 2px -2px gray;
+}
+
+div.navigation {
+  background-color: rgba(246,115,8,0.7);
+  box-shadow: 0 4px 2px -2px black;
+  height: 35px;
+  width: 100%;
+
+  ul {
+    font-family: 'Permanent Marker', cursive;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    height: 35px;
+    padding: 0;
+    margin: 0 auto;
+    opacity: 1;
+
+    li {
+      float: left;
+      margin: 0 15px;
+
+      a {
+        font-size: 1.25em;
+        text-decoration: none;
+      }
+    }
+  }
+}
 /* Desktop web screens */
 @media screen and (max-width: 800px) {
   body {
@@ -31,13 +68,11 @@ body {
 
 main {
   background-color: silver;
-  box-shadow: 0px 0px 10px gray;
+  box-shadow: 0 3px 2px -2px black;
   clear: both;
-  margin: 2% auto;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
   text-align: center;
-  padding: 2%;
-  // height: 750px;
-  width: 70%;
 
   p {
     // font-family: 'Lato', sans-serif;
@@ -59,13 +94,37 @@ main.contact p strong {
 
 .welcome {
   margin: 0 auto;
-  width: 60%;
+  margin-top: 10%;
+  width: 65%;
+}
+
+.scroll {
+  clear: both;
+   margin-top: 3%;
+  width: 85px;
 }
 
 p.disclaimer {
   font-weight: bold;
   font-size: 0.8em;
 }
+
+div.body {
+
+  section {
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 5%;
+
+    .emphasis {
+      font-weight: bold;
+      font-style: italic;
+      font-size: 2em;
+      margin-left: 1%;
+    }
+  }
+}
+
 
 @import 'about';
 @import 'skills';

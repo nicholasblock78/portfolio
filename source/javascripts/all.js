@@ -1,6 +1,19 @@
 // This is where it all goes :)
 $(function() {
 
+	var adjectives = ['Coder', 'Creator', 'Collaborator', 'Connector'];
+	var index = 0;
+	var slideshow = function() {
+			if(index == adjectives.length) {
+				index = 0
+			}
+			$('.emphasis').text(adjectives[index]);
+			index ++;
+	}
+
+	setInterval(slideshow, 2000);
+
+
 	$('#dbc img').on('mouseenter', function() {
 		event.preventDefault();
 

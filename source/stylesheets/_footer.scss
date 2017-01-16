@@ -1,5 +1,15 @@
+#name {
+	float: left;
+}
+
+#icons {
+	float: right;
+}
+
 footer {
 	clear: both;
+	display: flex;
+	justify-content: space-around;
 	height: 100px;
 	text-align: center;
 	margin-top: 3%;
@@ -42,10 +52,24 @@ footer {
 				background-color: orange;
 				z-index: -5;
 			}
-			
 
-			
+
+
 		}
-		
+
+	}
+}
+
+
+h1 {
+	color: rgb(40, 52, 103);
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3em;
+	margin: 0;
+	padding-left: 5%;
+
+
+	span {
+		color: $nicholas;
 	}
 }
