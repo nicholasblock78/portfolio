@@ -46,6 +46,12 @@ div.navigation {
   }
 }
 /* Desktop web screens */
+@media screen and (min-width: 800px) {
+  .scroll {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 800px) {
   body {
     background-color: yellow;
@@ -65,6 +71,10 @@ div.navigation {
     @media screen and (max-width: 500px) {
       body {
         background-color: red;
+      }
+
+      .scroll {
+        margin-top: 10%;
       }
     }
   }
@@ -129,6 +139,26 @@ div.body {
   }
 }
 
+.mainpage {
+  border: 1px solid black;
+  height: 200px;
+}
+
+.coder {
+  background-color: goldenrod;
+}
+
+.creator {
+  background-color: rgb(32, 192, 229);
+}
+
+.collab {
+  background-color: rgb(214, 117, 38);
+}
+
+.connect {
+  background-color: rgb(95, 206, 20);
+}
 
 @import 'about';
 @import 'skills';
