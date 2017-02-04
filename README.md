@@ -1,7 +1,5 @@
-#CURRENTLY LOOKING FOR EMPLOYMENT
-
 #Portfolio of Nicholas Block
-([Link to my site!](http://nicholasblock.com/))!
+[GO TO SITE](http://nicholasblock.com/)
 
 ###Contact Information:
 Chicago, IL
