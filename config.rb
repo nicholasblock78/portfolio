@@ -45,10 +45,9 @@ end
 activate :deploy do |deploy|
 	deploy.build_before = true # default: false
   deploy.deploy_method   = :ftp
-  deploy.host            = 'ftp.nicholasblock.com'
+  deploy.host            = 'sheepskin.dreamhost.com'
   deploy.port 		 	 = 21
   deploy.path            = '/nicholasblock.com/'
-  deploy.user            = 'nblock0330'
+  deploy.user            = 'nicholasblock78'
   deploy.password        = "#{ENV['PASSWORD']}"
 end
-
