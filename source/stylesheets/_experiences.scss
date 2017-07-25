@@ -6,7 +6,7 @@ div#experiences {
   // background-color: orange;
   display: flex;
   flex-direction: column;
-  
+
   margin: 0 auto;
   padding: 2%;
   width: 80%;
@@ -36,7 +36,7 @@ div#experiences {
         justify-content: center;
 
         img {
-          
+
         }
       }
 
@@ -69,6 +69,10 @@ div#experiences {
       ul {
         margin: 0;
         padding-left: 40px;
+
+        h3 {
+          margin-left: -5%;
+        }
 
         li {
           list-style-type: square;
