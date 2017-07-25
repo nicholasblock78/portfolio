@@ -6,11 +6,16 @@ div#skills {
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 1%;
+	margin-left: 5%;
+
 
 	h2 {
 		clear: both;
 		font-size: 2.5em;
 		margin-bottom: 0;
+	}
+
+	h3 {
 	}
 
 	ul {
@@ -26,5 +31,5 @@ div#skills {
 			margin-left: 5px;
 			width: 150px;
 		}
-	} 
-} 
+	}
+}
