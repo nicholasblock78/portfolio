@@ -13,7 +13,8 @@ $(function() {
 
 	setInterval(slideshow, 2000);
 
-
+//This code repeats itself and therefore is not DRY
+//Need to refactor into parent function
 	$('#dbc img').on('mouseenter', function() {
 		event.preventDefault();
 
@@ -40,6 +41,16 @@ $(function() {
 		event.preventDefault();
 
 		$(this).parent().parent().append('<p>Summer 2015</p>')
+	})
+	$('#powerreviews img').on('mouseleave', function() {
+		event.preventDefault();
+
+		$(this).parent().parent().find('p').remove()
+	})
+	$('#powerreviews img').on('mouseenter', function() {
+		event.preventDefault();
+
+		$(this).parent().parent().append('<p>Mar 2017 - present</p>')
 	})
 	$('#circus img').on('mouseleave', function() {
 		event.preventDefault();
