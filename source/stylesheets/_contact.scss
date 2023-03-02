@@ -1,0 +1,25 @@
+div#contact-wrapper {
+
+	#contact-info {
+		border-top: 2px solid $borders;
+		margin-top: 1%;
+		padding-top: 1%;
+
+
+		p {
+			text-align: center;
+			text-indent: 0;
+		}
+
+		h4 {
+			margin: 0;
+			margin-left: 30%;
+			text-align: left;
+			width: 200px;
+		}
+
+		div#bottom-text {
+				margin-top: 5%;
+		}
+	}
+}

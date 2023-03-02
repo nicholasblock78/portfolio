@@ -1,0 +1,41 @@
+div#about {
+	text-align: left;
+
+	h2 {
+		margin: 5px 0 0 30px;
+		font-size: 3em;
+	}
+
+	div#about-img {
+		border-top: 2px solid $borders;
+		display: flex;
+		justify-content: center;
+		margin-top: 1%;
+		width: 100%;
+
+		img {
+			box-shadow: 3px 3px 5px gray;
+			border-radius: 75%;
+			height: 200px;
+			text-align: center;
+			margin: 0 auto;
+			margin-top: 1%;
+		}	
+	}
+
+	h3 {
+		margin-left: 130px;
+	}
+
+	h4#slogan {
+		text-align: center;
+	}	
+
+	p {
+		line-height: 1.5;
+		text-align: justify;
+		text-indent: 50px;
+		margin: 0 auto;
+		width: 70%;
+	}	
+}

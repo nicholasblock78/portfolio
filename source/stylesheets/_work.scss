@@ -1,0 +1,106 @@
+div.buttons {
+	border-top: 2px solid $borders;
+	display: flex;
+	justify-content: center;
+	margin-top: 1%;
+
+	button {
+		background-color: $nicholas;
+		border: 3px solid $borders;
+		border-radius: 25px;
+		box-shadow: 3px 3px 5px gray;
+		margin: 1.5% 2%;
+		height: 40px;
+		width: 200px;
+	}
+
+	button:hover {
+		background-color: $borders;
+		font-weight: bold;
+	}
+}
+
+div#work {
+	text-align: left;
+	width: 80%;
+	margin: 0 auto;
+
+	#team {
+
+		h3 {
+			margin-left: 20px;
+
+			span {
+				text-decoration: underline;
+			}
+		}
+		section {
+			border-top: 2px solid $borders;
+			margin-top: 5%;
+			padding-top: 1%;
+
+			.top-wrapper {
+				display: flex;
+				flex-direction: row-wrap;
+				width: 100%;
+
+				.lefty {
+					display: flex;
+					flex: 1;
+					justify-content: center;
+					align-items: center;
+
+					img {
+						height: 150px;
+						box-shadow: 5px 5px 5px gray;
+					}
+				}
+
+				.righty {
+					flex: 2;
+					margin-left: 20px;
+
+					h4 {
+						font-size: 1.5em;
+					}
+				}
+			}
+
+			.bottom-wrapper {
+				clear: both;
+				text-align: center;
+				width: 100%;
+
+				div {
+					margin: 0 auto;
+				}
+
+				img {
+					margin: 0 1%;
+					width: 200px;
+				}
+			}
+		}
+	}
+
+	#personal {
+
+		#coming-soon {
+			margin-top: 5%;
+
+			img {
+				width: 60px;
+			}
+		}
+		ul {
+
+			li {
+
+				p {
+					margin: 0.5% 0 0.5% 2%;
+					width: 80%;
+				}
+			}
+		}
+	}
+}

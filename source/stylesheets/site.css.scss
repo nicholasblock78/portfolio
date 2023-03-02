@@ -1,0 +1,169 @@
+@charset "utf-8";
+@import "normalize";
+@import "colors";
+@import "header";
+
+body {
+  background-color: gray;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background-image: url(../images/kiteandi.jpg);
+  background-position: 0% -5%;
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+  height: 675px;
+  box-shadow: 0 5px 2px -2px gray;
+}
+
+div.navigation {
+  background-color: rgba(246,115,8,0.7);
+  box-shadow: 0 4px 2px -2px black;
+  height: 35px;
+  width: 100%;
+
+  ul {
+    font-family: 'Permanent Marker', cursive;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    height: 35px;
+    padding: 0;
+    margin: 0 auto;
+    opacity: 1;
+
+    li {
+      float: left;
+      margin: 0 15px;
+
+      a {
+        font-size: 1.25em;
+        text-decoration: none;
+      }
+    }
+  }
+}
+/* Desktop web screens */
+@media screen and (min-width: 800px) {
+  .scroll {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: yellow;
+
+  .scroll {
+    margin-top: 30%;
+  }
+}
+
+  /* Middle screens */
+  @media screen and (max-width: 650px) {
+    body {
+      background-color: blue;
+    }
+
+    /* Mobile Smallest Screens */
+    @media screen and (max-width: 500px) {
+      body {
+        background-color: red;
+      }
+
+      .scroll {
+        margin-top: 10%;
+      }
+    }
+  }
+}
+
+main {
+  background-color: silver;
+  box-shadow: 0 3px 2px -2px black;
+  clear: both;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+
+  p {
+    // font-family: 'Lato', sans-serif;
+    margin: 10px auto;
+    text-align: justify;
+    text-indent: 30px;
+    width:60%;
+  }
+}
+
+main.contact p {
+  display: inline-block;
+}
+
+main.contact p strong {
+  margin-right: 20px;
+  width: 110px;
+}
+
+.welcome {
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 65%;
+}
+
+.scroll {
+  clear: both;
+   margin-top: 3%;
+  width: 85px;
+}
+
+p.disclaimer {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+div.body {
+
+  section {
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 5%;
+
+    .emphasis {
+      font-weight: bold;
+      font-style: italic;
+      font-size: 2em;
+      margin-left: 1%;
+    }
+  }
+}
+
+.mainpage {
+  border: 1px solid black;
+  height: 200px;
+}
+
+.coder {
+  background-color: goldenrod;
+}
+
+.creator {
+  background-color: rgb(32, 192, 229);
+}
+
+.collab {
+  background-color: rgb(214, 117, 38);
+}
+
+.connect {
+  background-color: rgb(95, 206, 20);
+}
+
+@import 'about';
+@import 'skills';
+@import 'experiences';
+@import 'work';
+@import 'qa';
+@import 'contact';
+@import 'footer';
